@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "target": "ESNext",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "checkJs": true,
+        "outDir": "js",
+        "sourceMap": true,
+        "rootDir": "src",
+        "watch": true
+    },
+    "include": ["src/**/*"]
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Text recognize</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <h1 style="text-align: center;" >TEXT RECOGNINITION</h1>
+    <input type="file" id="image_input" onchange="loadImage(this)">
+    <div class="image">
+        <img id="display_image"></img>
+        <button id="btn" onclick="detect()">Detect</button>
+        <img id="result_image"></img>
+    </div>
+    <div id="text-result">
+        <h3>TEXT AND ACCURACY</h3>
+    </div>
+</body>
+
+<script src="js/demo.js"></script>
